@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
     <header class="main-header">
@@ -22,8 +23,10 @@
     </header>
     <main class="main-index">
       <section class="hero">
-        <h1 class="visually-hidden">Сайт города Седона</h1>
-        <img class="hero-img-text" src="images/welcome.svg" width="458" height="352" alt="Welcome to the gargeous Sedona. Because Grand Canyon sucks!">
+        <div class="hero-container">
+          <h1 class="visually-hidden">Сайт города Седона</h1>
+          <img class="hero-img-text" src="images/welcome.svg" width="458" height="352" alt="Welcome to the gargeous Sedona. Because Grand Canyon sucks!">
+        </div>
         <p class="hero-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
         <p class="hero-text">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </section>
@@ -33,8 +36,8 @@
           <li class="reasons-item">
             <h3 class="reasons-title">Настоящий городок</h3>
             <p class="reasons-desc">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-            <img  class="reasons-img" src="images/reason-1.jpg" width="800" height="385" alt="Первая причина посетить Седону">
           </li>
+          <li class="reasons-item"><img  class="reasons-img" src="images/reason-1.jpg" width="800" height="385" alt="Первая причина посетить Седону"></li>
           <li class="reasons-item">
             <h3 class="reasons-title">Небольшая площадь</h3>
             <p class="reasons-desc">Все достопримечательности находятся очень близко</p>
@@ -47,10 +50,11 @@
             <h3 class="reasons-title">Мало туристов</h3>
             <p class="reasons-desc">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
+          <li class="reasons-item"><img  class="reasons-img" src="images/reason-2.jpg" width="800" height="385" alt="Пятая причина посетить Седону">
+          </li>
           <li class="reasons-item">
             <h3 class="reasons-title">Там есть мост дьявола</h3>
             <p class="reasons-desc">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-            <img  class="reasons-img" src="images/reason-2.jpg" width="800" height="385" alt="Пятая причина посетить Седону">
           </li>
         </ul>
       </section>
